@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Barang" table="barang">
+
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="kode_barang" column="kode_barang"/>
+        <property name="nama_barang" column="nama_barang"/>
+        <property name="harga" column="harga"/>
+        <property name="stok" column="stok"/>
+
+    </class>
+</hibernate-mapping>
