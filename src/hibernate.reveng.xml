@@ -42,6 +42,4 @@ Contributor(s):
 <hibernate-reverse-engineering>
   <schema-selection match-catalog="kasir_db"/>
   <table-filter match-name="barang"/>
-  <table-filter match-name="transaksi"/>
-  <table-filter match-name="transaksi_detail"/>
 </hibernate-reverse-engineering>
